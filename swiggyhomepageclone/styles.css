@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoandlocsec{
+    width: 500px;
+    height: 80px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: 80px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+}
+.logo-image{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+.location{
+    width: 400px;
+    height: 80px;
+    /* background-color:blueviolet; */
+    display: flex;
+    align-items: center;
+}
+.loc-line{
+    height: 2px;
+    width: 90px;
+    background-color: black;
+
+}
+.sec-loc h5{
+    font-weight: 300;
+    margin-left: 10px;
+    color: grey;
+}
+.sec-loc{
+    display: flex;
+    align-items: center;
+}
+.sec-loc span{
+    font-size: 20px;
+    color: orangered;
+}
+
+.header-actions{
+    width: 600px;
+    height: 80px;
+    /* background-color: cadetblue; */
+    display: flex;
+}
+
+.header-action-base{
+    width: 120px;
+    height: 80px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.header-action-base:hover{
+    color: orangered;
+}
+
+.header-action-icon-base{
+    width: 25px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+
+.header-action-name-base{
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.offer-section{
+    width: 100%;
+    height: 320px;
+    background-color:#171a29;
+    display: flex;
+    align-items: center;
+   
+}
+
+.offer-card-base{
+    width: 260px;
+    height: 260px;
+    background-color: brown;
+    margin-left: 45px;
+    cursor: pointer;
+    transition: transform .2s ease;
+}
+
+.offer-card-image-base{
+    height: 260px;
+    width: 260px;
+    
+}
+
+.offer-card-base :hover{
+    transform: scale(1.03);
+}
+
+.filter-header{
+    width: 100%;
+    height: 60px;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurant-title{
+    width: 400px;
+    height: 60px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 30px;
+    
+}
+.restaurant-title h4{
+    font-weight: 600;
+}
+
+.filter-options{
+    width: 850px;
+    height: 60px;
+    /* background-color: black; */
+    display: flex;
+}
+
+.filter-options-base{
+    width: 130px;
+    height: 60px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.filter-options-base h5{
+    font-weight: 300;
+    font-size: 15px;
+    color: #686b78;
+    cursor: pointer;
+}
+.filter-options-base h5:hover{
+    color: #3d4152;
+}
+.filter-option-cost-high{
+    margin-left: 20px;
+}
+.filter-option-filter{
+    height: 60px;
+    width: 120px;
+    /* background-color: aqua; */
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.filter-option-filter h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #3d4152;
+    cursor: pointer;
+}
+
+.filter-option-filter h5:hover{
+    color: orangered;
+}
+.line{
+    width: 1185px;
+    height: 0.06px;
+    background-color: #b5b6b8;
+    margin-left: 26px;
+}
+
+.food-card-body{
+    width: 100%;
+    height: 1000px;
+}
+
+.food-card-body-line-one{
+    width: 100%;
+    height: 330px;
+    /* background-color: #3d4152; */
+    margin-top: 10px;
+    display: flex;
+}
+.food-card{
+    width: 296px;
+    height: 330px;
+    /* background-color: aqua; */
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.food-card:hover{
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.53);
+}
+
+
+.inner-food-card{
+    width: 254px;
+    height: 251px;
+    /* background-color: blue; */
+
+}
+
+.food-card-inner-image{
+    width: 254px;
+    height: 160px;
+    /* background-color: blueviolet; */
+}
+
+.food-card-food-name{
+    width: 254px;
+    height: 25px;
+    /* background-color: #171a29; */
+    margin-top: 8px;
+}
+
+.food-card-food-name h4{
+    font-weight: 500;
+}
+
+.food-card-item{
+    width: 254px;
+    height: 15px;
+    /* background-color: red; */
+    margin-top: 5px;
+}
+
+.food-card-item h5{
+    font-weight: 400;
+    font-size: 11px;
+    color: #686b78;
+}
+
+.rating-time-price{
+    width: 254px;
+    height: 25px;
+    /* background-color: green; */
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating{
+    height: 25px;
+    width: 50px;
+    background-color: #48c479;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rating-star i{
+    color: white;
+    font-size: 10px;
+}
+.rating-num{
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.rating-num h5{
+  color: white;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+.time{
+    height: 25px;
+    width: 80px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time h5{
+    font-weight: 300;
+    font-size: 10px;
+    color: #797b91;
+}
+
+.price{
+    height: 25px;width: 100px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #797b91;
+}
+
+.price h5{
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10px ;
+}
+
+
+
+
